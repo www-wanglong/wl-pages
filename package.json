@@ -1,6 +1,28 @@
 {
   "name": "wl-pages",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "lib/index.js",
+  "bin": "bin/wl-page.js",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "license": "MIT",
+  "dependencies" : {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "browser-sync": "^2.26.7",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^3.1.6"
+  }
 }
