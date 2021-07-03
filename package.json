@@ -1,14 +1,15 @@
 {
   "name": "wl-pages",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "bin": "bin/wl-page.js",
+  "homepage": "https://github.com/www-wanglong/wl-pages",
   "files": [
     "lib",
     "bin"
   ],
   "license": "MIT",
-  "dependencies" : {
+  "dependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
     "browser-sync": "^2.26.7",
